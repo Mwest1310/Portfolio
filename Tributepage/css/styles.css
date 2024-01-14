@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+#main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#title {
+	margin: auto;
+	text-align: center;
+	background-color: grey;
+	padding: 1em;
+}
+
+#img-div {
+	margin: 5em;
+}
+
+#image {
+	display: block;
+	margin: auto;
+}
+
+#img-caption {
+	text-align: center;
+}
+
+#tribute-info {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}

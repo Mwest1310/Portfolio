@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My GitHub Pages Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Personal Portfolio Webpage</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+    <nav id="navbar">
+      <ul id="nav-list" class = "d-inline-flex p-3 justify-content-around">
+        <li><a href="#welcome-section">Welcome Section</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#footer">Footer</a></li>
+      </ul>
+    </nav>
+    <main class = "h-100">
+      <section id="welcome-section">
+        <h1>Welcome to my Portfolio</h1>
+      </section>
+      <section id="projects">
+        <div class = "d-flex justify-content-around">
+          <a class="project-tile" href="Surveyform/Surveyform.html" target="_blank">
+            <img src = "images/surveyform.png" alt = "Survey Form"/>
+            <p class="project-title">Survey Form</p>
+         </a>
+          <a class = "project-tile" href = "Tributepage/Tributepage.html" target="_blank">
+            <img src = "images/Tributepage.png" alt = "Tribute Page" />
+            <p class = "project-title">Tribute Page</p>
+         </a>
+          <a class = "project-tile" href = "Productlandingpage/Productlandingpage.html" target="_blank">
+           <img src = "images/Productlandingpage.png" alt = "Product Landing Page" />
+           <p class = "project-title">Product Landing Page</p>
+         </a>
+      </div>
+      <div class = "d-flex justify-content-around">
+        <a class = "project-tile" href = "Technicaldocumentationpage/Technicaldocumentationpage.html" target="_blank">
+          <img src = "images/Technicaldocumentationpage.png" alt = "Technical Documentation Page" />
+          <p class = "project-title">Technical Documentation Page</p>
+        </a>
+        <a class = "project-tile" href = "https://codepen.io/Mwest1310/full/yLQEWwV" target="_blank">
+          <img src = "images/Randomquotegenerator.png" alt = "Random Quote Generator" />
+          <p class = "project-title">Random Quote Generator</p>
+        </a>
+        <a class = "project-tile" href = "https://codepen.io/Mwest1310/full/QWJzNZB" target="_blank">
+          <img src = "images/Markdownpreviewer.png" alt = "Markdown Previewer" />
+          <p class = "project-title">Markdown Previewer</p>
+        </a>
+      </div>
+      <div class = "d-flex justify-content-around">
+        <a class = "project-tile" href = "https://codepen.io/Mwest1310/full/QWJzNZB" target="_blank">
+          <img src = "images/Drummachine.png" alt = "Drum Machine" />
+          <p class = "project-title">Drum Machine</p>
+        </a>
+        <a class = "project-tile" href = "https://codepen.io/Mwest1310/full/QWJzNZB" target="_blank">
+          <img src = "images/calculator.png" alt = "JavaScript Calculator" />
+          <p class = "project-title">JavaScript Calculator</p>
+        </a>
+        <a class = "project-tile" href = "https://codepen.io/Mwest1310/full/QWJzNZB" target="_blank">
+          <img src = "images/clock.png" alt = "25 + 5 Clock" />
+          <p class = "project-title">25 + 5 Clock</p>
+        </a>
+      </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
+  <footer id="footer" class = "w-100">
+    <section id="links">
+      <a id="profile-link" href="https://github.com/Mwest1310" target="_blank"><p>My Github</p></a>
+    </section>
+  </footer>
 </html>

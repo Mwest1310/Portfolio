@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id = "navbar">
+        <header>HTML Documentation</header>
+        <a href = "#Introduction" class = "nav-link">Introduction</a>
+        <a href = "#Elements" class = "nav-link">Elements</a>
+        <a href = "#Attributes" class = "nav-link">Attributes</a>
+        <a href = "#Semantic_HTML" class = "nav-link">Semantic HTML</a>
+        <a href = "Reference" class = "nav-link">Reference</a>
+    </nav>
+    <main id = "main-doc">
+      <section class = "main-section" id = "Introduction">
+        <header><b>Introduction</b></header>
+        <p>HTML is a markup language that is used to define the structure of a website's content.</p>
+        <p>It uses elements, and these elements can be used in various ways to present a developer's website.</p>
+        <p>HTML includes various attributes to better define the role of an individual element.</p>
+      </section>
+      <section class = "main-section" id = "Elements">
+        <header><b>Elements</b></header>
+        <p>An HTML element is structured with a starting tag, a closing tag, and the content within. For instance, <code>&ltdiv&gtHello World!&lt&#47div&gt</code> would produce <code>Hello World!</code></p>
+      </section>
+      <section class = "main-section" id = "Attributes">
+        <header><b>Attributes</b></header>
+        <p>There are various attributes that can be used to give developers greater control over elements.</p>
+        <p>These attributes can help developers use CSS to style them, or to allow the user to interact with them in some way. Some of the more commonly used attributes include:</p>
+        <ul>
+          <li>id - ids are unique to a specific element and cannot be used for another one. They allow the developer to style them specifically, or to link them to an anchor tag.</li>
+          <li>class - unlike ids, classes can be used for multiple elements. If the developer wants to style several similar elements, they may give them the same class.</li>
+          <li>href - the href attribute is used to create links between elements or websites. If the user clicks that element, they will be transported to the target destination.</li>
+        </ul>
+      </section>
+      <section class = "main-section" id = "Semantic_HTML">
+        <header><b>Semantic HTML</b></header>
+        <p>In order to make the structuring and readability of HTML easier, it is good practice to use Semantic HTML.</p>
+        <p>Semantic HTML refers to the meaning of a piece of code. Where one could create a main heading element using a simple div, the h1 element is a clearer indication of what you are trying to do.</p>
+        <p>Semantic HTML also allows for some automatic styling. An h1 element will be given a larger font to make it look like a heading. These are some commonly used semantic elements:</p>
+        <ul>
+          <li>h1 through h6 - The heading elements allow for the developer to specify the importance and position of each heading, with h1 being the most important, and h6 the least. <code>&lth1&gtHello World!&lt&#47h1&gt</code> </li>
+          <li>p - The paragraph element allows for easier grouping of text. A paragraph element is a block-level element, meaning it starts on a new line.<code>&ltp&gtHello World!&lt&#47p&gt</code> would produce: <br> <code>Hello World!</code></li>
+        </ul>
+      </section>
+      <section class = "main-section" id = "Reference">
+        <header><b>Reference</b></header>
+        <p>All of this information (and more) can be found in <a href = "https://developer.mozilla.org/en-US/" target = "_blank">MDN</a></p>
+      </section>
+    </main>
+  </body>
+</html

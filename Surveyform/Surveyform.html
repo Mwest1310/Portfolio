@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Survey Form</title>
+   </head>
+   <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="John"></input></label>
+        <label id="email-label">Enter your Email: <input id="email" type="email" required placeholder="fdsfds@dsfds.dsc"></input></label>
+        <label id="number-label">Enter a number: <input id="number" type="number" min=0 max=10 placeholder="0-10"></input></label>
+      </fieldset>
+      <fieldset>
+        <select id="dropdown">
+          <option>One</option>
+          <option>Two</option>
+        </select>
+      </fieldset>
+      <fieldset id="radio">
+        <label for="radio-one" class="inline">Radio One: <input id="radio-one" type="radio" value="radio-one" name="radio-choice"></input></label>
+        <label for="radio-two">Radio Two: <input id="radio-two" type="radio" value="radio-two" name="radio-choice"></input></label>
+      </fieldset>
+      <fieldset>
+        <label for="checkbox-one"><input id="checkbox-one" type="checkbox" value="checkbox-one"></input> Saw?</label>
+        <label for="checkbox-two"><input id="checkbox-two" type="checkbox" value="checkbox-two"></input> Heard?</label>
+        <label for="checkbox-three"><input id="checkbox-three" type="checkbox" value="checkbox-three"></input> Smelt?</label>
+      </fieldset>
+      <fieldset>
+        <label for="bio">
+          <textarea></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+        <input id="submit" type="submit"></input>
+      </fieldset>
+
+    </form>
+  
+  </body>
+
+</html>
