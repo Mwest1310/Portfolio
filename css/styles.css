@@ -83,7 +83,6 @@ h1{
 .project-tile{
   height: 200px;
   border: 1px solid black;
-  border-radius: 5px;
   text-align: center;
   width: 300px;
   margin: 0 2em;
